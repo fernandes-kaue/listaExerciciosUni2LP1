@@ -4,6 +4,6 @@ public class Produto {
 
     @Override
     public String toString() {
-        return String.format("Nome: %s %n Preço: %d %n", nome, preco);
+        return String.format("Nome: %s %n Preço: %f %n", nome, preco);
     }
 }
