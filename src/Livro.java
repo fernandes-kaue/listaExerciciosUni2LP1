@@ -1,4 +1,4 @@
-public class Livro extends Produto{
+public class Livro extends Produto {
     private final String autor;
 
     public Livro(String nome, double preco, String codigoDeBarras, String autor) {

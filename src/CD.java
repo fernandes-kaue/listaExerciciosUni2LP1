@@ -1,4 +1,4 @@
-public class CD extends Produto{
+public class CD extends Produto {
     private final int numeroDeFaixas;
 
     public CD(String nome, double preco, String codigoDeBarras, int numeroDeFaixas) {

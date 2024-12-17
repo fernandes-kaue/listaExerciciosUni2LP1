@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class Loja {
     public static void main(String[] args) {
         Produto[] produtos = new Produto[15];
