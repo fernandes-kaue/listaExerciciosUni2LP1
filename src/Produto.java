@@ -16,8 +16,10 @@ public class Produto {
 
     @Override
     public boolean equals(Object obj) {
-// TODO adição de logica
-        return false;
+        if (this == obj) return true;
+        if (obj == null || getClass() != obj.getClass()) return false;
+        Produto produto = (Produto) obj;
+        return codigoDeBarras.equals(produto.codigoDeBarras);
     }
 
 }
