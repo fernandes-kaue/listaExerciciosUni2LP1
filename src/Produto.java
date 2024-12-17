@@ -1,9 +1,14 @@
 public class Produto {
-    private String nome;
-    private double preco;
+    protected String nome;
+    protected double preco;
+
+    public Produto(String nome, double preco) {
+        this.nome = nome;
+        this.preco = preco;
+    }
 
     @Override
     public String toString() {
-        return String.format("Nome: %s %n Preço: %f %n", nome, preco);
+        return "Nome: " + nome + ", Preço: R$" + preco;
     }
 }
