@@ -21,7 +21,7 @@ public class Loja {
         Produto produtoBuscado = new Livro("A Casa de Folhas", 333, "666", "Mark Z. Danielewski");
         Produto produtoBuscado1 = new Livro("A Casa de Folhas", 333, "766", "Mark Z. Danielewski");
 
-        System.out.println("Busca por produto com codigo existente");
+        System.out.println("Busca por produto com codigo existent");
         System.out.println(buscarProduto(produtos, produtoBuscado));
         System.out.println("Busca por produto sem codigo existente");
         System.out.println(buscarProduto(produtos, produtoBuscado1));
