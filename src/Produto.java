@@ -16,7 +16,8 @@ public class Produto {
 
     @Override
     public boolean equals(Object obj) {
-
+// TODO adição de logica
+        return false;
     }
 
 }
